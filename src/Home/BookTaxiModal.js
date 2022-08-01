@@ -19,7 +19,7 @@ function BookTaxiModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" size='lg' onClick={handleShow}>
         Book Ride
       </Button>
 
