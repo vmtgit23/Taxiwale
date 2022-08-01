@@ -1,0 +1,56 @@
+.ContactUsBody {
+  background: url('./ContactUsBackdrop.png');
+  background-repeat: no-repeat;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solid-white {
+  background-color: white;
+  height: 350px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  width: 90%;
+  filter: drop-shadow(0px 0px 5px black);
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.padding-l20 {
+  padding-left: 20px;
+}
+
+.w50-h50 {
+  width: 50px;
+  height: 50px;
+}
+
+.left-w40 {
+  float: left;
+  width: 40%;
+}
+
+.right-w50 {
+  float: right;
+  width: 50%;
+}
+.h30 {
+  height: 50px;
+}
+
+.padding-t20 {
+  padding-top: 20px;
+}
+
+sm, sm:hover, sm:focus, sm:active {
+      text-decoration: none;
+      color: inherit;
+}
